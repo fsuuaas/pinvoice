@@ -1,0 +1,22 @@
+{
+    "name": "kaankilic/pinvoice",
+    "description": "API Authentication Functionalities",
+    "version": "v0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kaan Kılıç",
+            "email": "bl4cksta@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaankilic\\PortableInvoice\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
