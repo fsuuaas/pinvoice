@@ -21,7 +21,5 @@
         "psr-4": {
             "Kaankilic\\PortableInvoice\\": "src/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
