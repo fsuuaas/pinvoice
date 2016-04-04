@@ -17,6 +17,6 @@
             "Kaankilic\\PortableInvoice\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "master",
     "prefer-stable": true
 }
