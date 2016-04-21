@@ -1,6 +1,7 @@
 <?php 
-namespace \Kaankilic\PortableInvoice\src;
+namespace Kaankilic\PortableInvoice;
 use Illuminate\Support\ServiceProvider;
+use Libs\Invoice;
 class PortableInvoiceServiceProvider extends ServiceProvider {
   
    /**
@@ -9,6 +10,9 @@ class PortableInvoiceServiceProvider extends ServiceProvider {
      * @return void
     */
   public function boot(){
+    $this->app['PortableInvoice'] = $this->app->share(function($app){
+      return new Invoice('A4','$',$this->app->getLocale());
+    });
   }
  
   /**
@@ -16,9 +20,8 @@ class PortableInvoiceServiceProvider extends ServiceProvider {
     *
     * @return void
   */
-  public function register()
-  {
-   //
+  public function register(){
+    return array('PortableInvoice');
   }
  
 }
