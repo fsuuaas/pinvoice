@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kaankilic\\PortableInvoice\\": "src/"
+            "Kaankilic\\PortableInvoice\\": "/vendor/kaankilic/pinvoice/src"
         }
     },
      "minimum-stability": "dev",
