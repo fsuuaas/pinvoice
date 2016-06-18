@@ -22,6 +22,5 @@
             "Kaankilic\\PortableInvoice\\": "/vendor/kaankilic/pinvoice/src"
         }
     },
-     "minimum-stability": "dev",
      "prefer-stable": true
 }
