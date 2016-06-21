@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kaankilic\\PortableInvoice\\": "/vendor/kaankilic/pinvoice/src"
+            "Kaankilic\\PortableInvoice\\": "src/"
         }
     }
 }
